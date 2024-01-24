@@ -17,7 +17,6 @@ import Image from "next/image";
 
 const PostUser = async ({ userId }) => {
   const user = await getUser(userId);
-  console.log(user);
   return (
     <div className={styles.container}>
       <Image
